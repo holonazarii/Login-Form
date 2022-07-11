@@ -33,6 +33,13 @@ input {
    border: 0px;
    padding-left: 22px;
 }
+input:hover {
+   outline: 2px solid #FF7AB6;
+}
+input:focus {
+   outline: 3px solid #EF5699;
+   transition: 0.2s;
+}
 .form__title {
    text-align: center;
    color: #FFFFFF;
@@ -83,8 +90,13 @@ input {
    padding: 16px 31px;
    font-size: 28px;
 }
+.fa-brands:hover {
+   background: #EF5699;
+   transition: 0.5s;
+   color: #FFFFFF;
+}
 .reg__btn {
-   background: linear-gradient(90deg, #EF5699 0%, #F7979E 100%);
+   background: #EF5699;
    border-radius: 10px;
    border: 0px;
    color: #FFFFFF;
@@ -94,20 +106,23 @@ input {
    cursor: pointer;
    margin: 20px auto;
    display: block;
-   transition: 2s;
+   transition: 0.3s;
 }
 .reg__btn:hover {
-   background: linear-gradient(90deg, #F7979E 0%, #EF5699 100%);
+   transition: 0.3s;
+   background: #FF7AB6;
 }
 .form__sign {
    color: #ffffff;
    font-weight: 400;
-   font-size: 14px;
 }
 .form__sign__link {
    text-decoration: none;
    color: #EF5699;
+   font-weight: 500;
+   transition: 0.3s;
 }
 .form__sign__link:hover {
    color: #FF7AB6;
+   transition: 0.3s;
 }
